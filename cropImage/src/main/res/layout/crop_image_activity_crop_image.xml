@@ -27,7 +27,7 @@
         <com.unit.cropimage.CoverView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <!-- 不可以放置分辨率很高的图片作为覆盖图片，不然再拖动的时候会出现卡顿现象 -->
+            <!-- 不可以放置分辨率很高的图片作为覆盖图片，不然在拖动的时候会出现明显的卡顿现象 -->
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="250dp"

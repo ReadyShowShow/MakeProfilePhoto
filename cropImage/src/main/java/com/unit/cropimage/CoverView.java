@@ -21,14 +21,15 @@ import android.graphics.Canvas;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
 /**
  * @author jian
- *
+ * 为了方便的覆盖一个自定义的图片在ImageView上
+ * 这个类的显示效果是第一个View所在的位置是没有背景颜色的
+ * 如果设置了背景，则第一个View周围显示该背景颜色
+ * 这个类能获取第一个子View的位置
  */
 public class CoverView extends FrameLayout {
 
@@ -47,5 +48,14 @@ public class CoverView extends FrameLayout {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+    }
+
+    private int[] getVisibleArea() {
+        if(getChildCount() > 0) {
+            View visibleAreaView = getChildAt(0);
+            return null;
+        } else {
+            return null;
+        }
     }
 }
