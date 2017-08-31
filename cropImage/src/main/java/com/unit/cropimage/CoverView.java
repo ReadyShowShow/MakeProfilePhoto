@@ -50,9 +50,13 @@ public class CoverView extends FrameLayout {
         super.onDraw(canvas);
     }
 
-    private int[] getVisibleArea() {
+    /**
+     * 获取中间View覆盖的区域
+     * @return
+     */
+    private int[] getContentArea() {
         if(getChildCount() > 0) {
-            View visibleAreaView = getChildAt(0);
+            View contentAreaView = getChildAt(0);
             return null;
         } else {
             return null;
