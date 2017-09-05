@@ -1,4 +1,4 @@
-package com.unit.cropimage;
+package com.jian.cropimage;
 
 import org.junit.Test;
 

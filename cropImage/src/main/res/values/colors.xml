@@ -16,5 +16,5 @@
   -->
 
 <resources>
-    <color name="crop_image_cover_color">#7000</color>
+    <color name="crop_image_cover_view_bg">#7000</color>
 </resources>

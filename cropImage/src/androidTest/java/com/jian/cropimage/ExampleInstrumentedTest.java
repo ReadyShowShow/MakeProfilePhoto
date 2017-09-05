@@ -1,4 +1,4 @@
-package com.unit.cropimage;
+package com.jian.cropimage;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -15,16 +15,15 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.unit.cropimage">
+    package="com.jian.cropimage">
 
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
         android:supportsRtl="true">
         <activity
-            android:name=".CropImageActivity"
+            android:name="com.jian.cropimage.CropImageActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:process=":cropImage"
             android:screenOrientation="portrait"
             android:theme="@style/TransparentBackground" />
     </application>

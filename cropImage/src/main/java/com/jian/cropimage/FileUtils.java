@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.unit.cropimage;
+package com.jian.cropimage;
 
 import android.annotation.TargetApi;
 import android.content.ContentUris;
